@@ -284,7 +284,7 @@ body #cdawrap {
 	grid-area: title;
 	font-size: clamp(2rem, 13vw, 8rem);
 	font-weight: 400;
-	margin: 10vh 0;
+	margin-bottom: 15vh;
 	line-height: 1;
 }
 
@@ -794,10 +794,12 @@ body #cdawrap {
 		text-align: right;
 	}
 	.project__mission {
-		display: grid;
+		/* display: grid; */
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: auto auto;
-		grid-template-areas: 'p1 ...' '... p2';
+		grid-template-areas:
+			'p1 ...'
+			'... p2';
 		column-gap: 2rem;
 	}
 	.gallery--grid10 {
